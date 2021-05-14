@@ -24,11 +24,11 @@ php bin/magento cache:flush
 var cep = document.getElementsByName("postcode")[0].value;
 
 // API usada, substituir link
-            $.getJSON("https://brasilapi.com.br/api/cep/v1/"+ cep, function(data) {
-            // Substiruir variaveis conforme a API customizada indique
-            var rua = data.street;
-            var bairro = data.neighborhood;
-            var cidade = data.city;
-            var uf = data.state;
+$.getJSON("https://brasilapi.com.br/api/cep/v1/"+ cep, function(data) {
+// Substiruir variaveis conforme a API customizada indique
+var rua = data.street;
+var bairro = data.neighborhood;
+var cidade = data.city;
+var uf = data.state;
  
 ```
