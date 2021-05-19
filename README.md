@@ -4,6 +4,8 @@
 - Funcionando no **Checkout**, **Carrinho** e **Perfil** (area de alterar endereço).
 - Usando a [Brasil API](https://github.com/BrasilAPI/BrasilAPI "Brasil API"), podendo ser facilmente substituida por uma de sua escolha.
 - Testado e criado usando Magento 2.3.6
+##Video
+[![](https://i.imgur.com/1xQXqvW.gif)](https://i.imgur.com/1xQXqvW.gif)
 ### Instalação (Apenas manual)
 - Faça o [download](https://github.com/LimaJonas/magento-autocomplete-cep-br/releases "download") do modulo.
 - Em [Magento_Root]/App/Code, crie as pastas Jonaslima/Autocomplete.
@@ -16,7 +18,6 @@ php bin/magento setup:static-content:deploy pt_BR -f
 php bin/magento cache:flush
 ```
 - Pronto, instalado. Basta ir no checkout, preencher o CEP e testar!
-
 ## Alterar API
 - Para alterar a API usada, é necessário alterar os 3 arquivos que fazem a alteração dos campos (**cartAddress.js**, **checkoutAddress.js** e **customerAddress.js**), todas estão na pasta [Modulo_Root]/view/frontend/web/js/. 
 - Altere o link da api na linha 10 de todos os arquivos citados.
