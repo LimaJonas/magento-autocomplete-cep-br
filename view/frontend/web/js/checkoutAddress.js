@@ -2,15 +2,13 @@ require([
     'jquery',
     'jquery/ui',
 ], function($){ 
-    $(document).ready( function() {
-        
+    $(document).ready( function() {        
         // Função ativada ao tirar o foco do input de CEP
         $(document).on("focusout",'input[name="postcode"]', function() {
 
             var cep = document.getElementsByName("postcode")[0].value;
-            
-            // API usada, substituir link
             $.getJSON("https://brasilapi.com.br/api/cep/v1/"+ cep, function(data) {
+            
             // Substiruir variaveis conforme a API customizada indique
             var rua = data.street;
             var bairro = data.neighborhood;
@@ -116,8 +114,6 @@ require([
                     document.getElementsByName('region_id')[0].getElementsByTagName('option')[0].selected = 'selected';
                     break;                                                                        
             }
-
-
             });
         });            
     });

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- 
+/**
+* Jonas Lima
+* https://github.com/LimaJonas
+*/
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <link src="Jonaslima_Autocomplete::js/customerAddress.js" />
+    </head>
+</page>
