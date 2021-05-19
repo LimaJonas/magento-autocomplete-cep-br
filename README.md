@@ -4,7 +4,7 @@
 - Funcionando no **Checkout**, **Carrinho** e **Perfil** (area de alterar endereço).
 - Usando a [Brasil API](https://github.com/BrasilAPI/BrasilAPI "Brasil API"), podendo ser facilmente substituida por uma de sua escolha.
 - Testado e criado usando Magento 2.3.6
-##Video
+## Video
 [![](https://i.imgur.com/1xQXqvW.gif)](https://i.imgur.com/1xQXqvW.gif)
 ### Instalação (Apenas manual)
 - Faça o [download](https://github.com/LimaJonas/magento-autocomplete-cep-br/releases "download") do modulo.
