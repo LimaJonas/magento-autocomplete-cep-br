@@ -114,6 +114,12 @@ require([
                         document.getElementsByName('region_id')[0].getElementsByTagName('option')[0].selected = 'selected';
                         break;                                                               
                 }
+            }).fail(function() {
+                jQuery("#street_1").val("");
+                jQuery("#street_2").val("");
+                jQuery("#street_3").val("");
+                jQuery("#street_4").val("");
+                jQuery("#city").val("");
             });
         });
     });            
