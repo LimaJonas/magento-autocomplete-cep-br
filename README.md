@@ -1,4 +1,4 @@
-## Magento Modulo de Auto Completar CEP - BR
+## [DESCONTINUADO] Magento Modulo de Auto Completar CEP - BR
 
 - Simples solução para auto-completar campos ao preencher o CEP no campo de endereço.
 - Funcionando no **Checkout**, **Carrinho** e **Perfil** (area de alterar endereço).
